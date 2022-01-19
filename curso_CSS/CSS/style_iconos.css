@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "festive" "nuninto_sans";
+    src: url(festive/Festive-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "source_sans_pro";
+    background: #ccc;
+    margin-top: 5em;
+}
+a{
+    src: url(nuninto_sans/NunitoSans-Regular.ttf);
+    color: blue;
+    text-decoration: none;
+    font-size: 3em;
+}
+a i{
+    color: black;
+    margin-left: 2em;
+}

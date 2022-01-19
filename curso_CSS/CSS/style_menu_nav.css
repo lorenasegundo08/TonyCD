@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "festive";
+    src: url(festive/Festive-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin-top: 5em;
+    background: rgb(211, 205, 205);
+}
+ul{
+    font-family: "festive";
+    background: blue;
+    list-style: none;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+ul li{
+    display: inline-block;
+    margin-right: 1em;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.cont{
+    width: 70%;
+    margin: 10em auto;
+    padding: 1em;
+    box-shadow: 0 0 20px rgba(21, 7, 116, 0.8);
+    border-radius: 5px;
+    background: #fff;
+}
+.cont h2{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.cont hr{
+    width: 100%;
+    margin-bottom: 1em;
+    height: 2px;
+    border: none;
+    border-radius: 2px;
+    background: blue;
+}

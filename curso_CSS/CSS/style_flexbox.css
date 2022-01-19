@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    padding: 1em;
+    height: 300px;
+    background: cyan;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+
+
+
+}
+.contenedor > div {
+    margin: 1em 1em;
+    background: white;
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+.contenedor .nueve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

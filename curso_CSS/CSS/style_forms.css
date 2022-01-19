@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "source_sans_pro";
+    src: url(source_sans_pro/SourceSansPro-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "source_sans_pro";
+    background: #ccc;
+    margin-top: 5em;
+}
+ul{
+    font-family: "source_sans_pro";
+    background: blue;
+    list-style: none;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+ul li{
+    display: inline-block;
+    margin-right: 1em;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.contenedor{
+    width: 40%;
+    margin: 2em auto;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(21, 7, 116, 0.8);
+    border-radius: 5px;
+}
+.contenedor h1{
+    background: #111;
+    color: #fff;
+    padding: 0.5em;
+    word-spacing: .25em;
+    text-align: center;
+}
+.contenedor form{
+    width: 100%;
+    padding: 0 1em 1em 1em;
+}
+.contenedor form label{
+    width: 100%;
+    display: block;
+    margin: 0.5em 0;
+}
+input[type=text]{
+    width: 100%;
+    padding: 0.25em 0 0.5em 0.25em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    padding: 0.25em 0 0.25em 0.25em;
+    outline: none;
+    resize: none;
+}
+input[type=text]:hover{
+    border-bottom: 2px solid #111;
+    transition: 1s all ease;
+}
+.btn-group{
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-group a{
+    text-decoration: none;
+    border: none;
+    background: red;
+    border-radius: 5px;
+    color: #111;
+    padding: 0.4em 1em;
+}
+.btn-group input[type=submit]{
+    font-family: "source_sans_pro";
+    text-decoration: none;
+    border: none;
+    background: green;
+    border-radius: 5px;
+    color: #111;
+    padding: 0.65em 1em;
+}

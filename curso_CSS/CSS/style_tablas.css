@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table, tr, td{
+    border: 1px solid #111;
+    padding: 15px;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 2em;
+    width: 70%;
+}
+table thead{
+    background: blue;
+}
+
+table thead td{
+    text-align: center; 
+    vertical-align: top;       
+}
+table tr:hover{
+    /* background: #ccc; */
+}
+table td:hover{ 
+    /* background: #111; */
+     color: cyan; 
+} 
+table tr:nth-child(even){
+    background-color: #ccc;
+}
